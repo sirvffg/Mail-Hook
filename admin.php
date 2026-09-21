@@ -1346,5 +1346,13 @@ document.addEventListener('keydown', function(e){
 </script>
 <?php endif; /* end logged-in */ ?>
 </div>
+
+<!-- Footer -->
+<div style="text-align:center;padding:28px 0 40px;color:#9aa5b5;font-size:12px">
+  <a href="https://lygalaxy.cn/" target="_blank" rel="noopener" style="color:#9aa5b5;text-decoration:none">
+    MailHook &nbsp;·&nbsp; by <b>冷月笙寒-Galaxy</b>
+  </a>
+</div>
+
 </body>
 </html>
