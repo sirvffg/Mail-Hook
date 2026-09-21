@@ -135,14 +135,6 @@ Content-Type: application/json
 
 完整接口说明见 [API.md](API.md)。
 
-## 🛡️ 安全建议
-
-- `config.php` 数据库凭据不要提交到 Git（可改为环境变量）
-- `apikey.txt` 这类临时文件**不要**上传到公开仓库
-- 生产环境强制 HTTPS
-- 定期在后台 **⚙️ 设置** 页面重新生成 `HOOK_SECRET`
-- 所有 API Key 走 `mh_` 前缀但不要硬编码在第三方脚本里
-
 ## 🗃️ 数据库
 
 `init.sql` 包含 6 张表：
